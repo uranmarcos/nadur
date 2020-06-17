@@ -1,0 +1,242 @@
+/*generales*/
+.nadur{
+  color: rgb(5, 95, 0);
+  font-family: "Merienda";
+  margin-left: 15px;
+  font-size: 7vh;
+  align-items: center;
+}   /*logo*/
+
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/*header*/
+    header{
+      height: 15vh;
+    }
+    .header{
+      display: flex;
+      height: 100%;
+    }
+    img{
+      height: 90%;
+      margin-left: 10px;
+    }
+    .caja-header{
+      width: 50%;
+      display: flex;
+      align-items: center;
+    }
+    .menu{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+    .menu li{
+      display: inline;
+      text-align: right;
+    }
+    .menu li a{
+      color: rgb(5, 95, 0);
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 25px;
+      margin-right: 10px;
+    }
+    .menu li a:hover{
+      border-bottom: rgb(5, 95, 0) 2px solid;
+    }
+
+
+/*main*/
+    .inicio{
+      display: flex;
+      background-image: url("img/fondo7.jpg");
+      background-position: center;background-size: cover;
+      background-repeat: no-repeat;
+      height: 85vh;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+
+/*barra login*/
+    .menu-login{
+      list-style-type: none;
+      text-align: center;
+      margin-top: 0;
+      background-color: rgba(5, 95, 0, 0.4);
+    }
+    .menu-login li{
+      display: inline;
+    }
+    .menu-login a{
+      text-decoration: none;
+      color: white;
+
+      font-size: 30px;
+      margin-right: 20px;
+    }
+    .menu-login a:hover{
+      text-transform: uppercase;
+    }
+
+
+/* barra inferior */
+    .guarda{
+      background-color: rgba(5, 95, 0, 0.2);
+      color: rgb(5, 95, 0);
+      text-align: right;
+      font-size: 13px;
+    }
+
+
+
+
+/* seccion destinos*/
+  .div-destinos{
+    height: 70vh;
+  }
+  .destinos{
+      margin-bottom: 30px;
+      margin-top: 0px;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between ;
+  }
+  h2{
+    text-align: center;
+    color: rgb(5, 95, 0);
+  }
+  .producto{
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(5, 95, 0, 0.4);
+    color: rgb(5, 95, 0);
+    text-transform: uppercase;
+  }
+  .img-producto{
+    width: 100%;
+    height: 250px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .mas-info{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 0;
+    text-decoration: none;
+    color: rgb(5, 95, 0);
+  }
+  .mas-info:hover{
+    font-weight: bolder;
+  }
+
+/* seccion personalizado*/
+  .personalizado{
+    font-size: 20px;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    text-align:right;
+    align-items: flex-end;
+    padding-right: 30px;
+    background-image: url("img/persona.jpg");
+    background-repeat: no-repeat;
+    color:rgb(5, 95, 0);
+    line-height: 10vh;
+  }
+  .boton-personalizado{
+    text-align: center;
+    border:solid 1px rgb(5, 95, 0);
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .boton-personalizado a{
+    text-decoration: none;
+    color:rgb(5, 95, 0);
+    }
+  .boton-personalizado:hover{
+    background-color: rgb(5, 95, 0);
+    color: white;
+    }
+  .boton-personalizado a:hover{
+    color:white;
+  }
+
+/*seccion contacto*/
+.seccion-contacto{
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  background-image: url("img/paisajes2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fondo-contacto{
+  background-color: rgba(5, 95, 0, 0.4);
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.contacto{
+  width: 33.3%;
+  height: 70%;
+  text-align: center;
+}
+.izquierdo{
+  text-align: right;
+}
+.derecho{
+  text-align: left;
+}
+.texto-contaxto{
+  font-size: 30px;
+  color:red;
+}
+.campo-completar{
+  width: 80%;
+  height: 30px;
+  margin-top: 20px;
+}
+.boton-enviar{
+  margin-top: 40px;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(5,95,0,0);
+  font-family:'Montserrat', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bolder;
+}
+.boton-enviar:hover{
+  background-color: white;
+  color:rgb(5,95,0);
+}
+
+iframe{
+  border-radius: 30px;
+}
+
+/*footer*/
+  footer{
+    height: 10vh;
+  }
+  .footer-logo{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
